@@ -12,3 +12,9 @@
 ## 後始末
 - docker stop myphp
 - docker rm myphp
+
+## イメージをファイル化する
+- docker save -o saved.tar myphpimage
+
+## イメージファイルから読み込む
+- docker load -i saved.tar
