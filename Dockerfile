@@ -7,3 +7,4 @@ RUN apt update \
 && rm /var/www/html/index.html
 COPY index.php /var/www/html/
 CMD /usr/sbin/apachectl -DFOREGROUND
+STOPSIGNAL SIGWINCH
