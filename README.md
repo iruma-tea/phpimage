@@ -18,3 +18,11 @@
 
 ## イメージファイルから読み込む
 - docker load -i saved.tar
+
+## Docker Hubのアカウントを作成する
+- https://hub.docker.com/
+
+## イメージをDocker HubにPushする
+- docker tag myphpimage 自分のdocker id/myphpimage
+- docker login
+- docker push 自分のdocker id/myphpimage
